@@ -35,3 +35,37 @@ function getGrade (s1, s2, s3) {
   let soda = 1.00
   let money = 10
   let change = money - (candy + chips + soda)
+
+
+//Drink About 
+// Kids drink toddy.
+// Teens drink coke.
+// Young adults drink beer.
+// Adults drink whisky.
+// Make a function that receive age, and return what they drink.
+
+// Rules:
+
+// Children under 14 old.
+// Teens under 18 old.
+// Young under 21 old.
+// Adults have 21 or more.
+// Examples:
+
+// peopleWithAgeDrink(13) === "drink toddy"
+// peopleWithAgeDrink(17) === "drink coke"
+// peopleWithAgeDrink(18) === "drink beer"
+// peopleWithAgeDrink(20) === "drink beer"
+// peopleWithAgeDrink(30) === "drink whisky"
+
+function peopleWithAgeDrink(old) {
+  if (old <= 13){
+    return 'drink toddy'
+  }else if (old >= 14 && old <=17 ){
+    return 'drink coke'
+  }else if (old >= 18 && old <= 20){
+    return 'drink beer'
+  }else if (old >= 21){
+    return 'drink whisky'
+  }
+};
