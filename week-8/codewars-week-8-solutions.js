@@ -135,3 +135,14 @@ function median(values) {
   else
       return (values[half-1] + values[half]) / 2.0;
 }
+
+// What's Wrong with these Identifiers? 
+// An identifier is simply a name...
+// Can you amend this object so that its properties comprise only vaild identifiers?
+
+var Person = {
+  firstName: "John",
+  lastName: "Doe",
+  emailAddress: "john.doe@email.com",
+  gender: "M"
+};
