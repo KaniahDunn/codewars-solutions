@@ -27,3 +27,4 @@ For this kata, don't worry about edge cases like where unexpected input is passe
 function booleanToString(b){
     return b ? 'true' : 'false';
   }
+  
