@@ -17,6 +17,6 @@ def friend(x):
             friend.append(i)
     return friend 
 
-def friend(x):
+def friend_2(x):
     return [i for i in x if len(i) == 4]
 
