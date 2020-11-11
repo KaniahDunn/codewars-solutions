@@ -6,6 +6,8 @@ To continue to work on my data-structures and algorithms, I will be completeing 
 * [Python](https://github.com/KaniahDunn/codewars-solutions/tree/master/Python%20) 
 * [Javascript](https://github.com/KaniahDunn/codewars-solutions/tree/master/Javascript%20) 
 * PHP
+* [SQL](https://github.com/KaniahDunn/codewars-solutions/tree/master/SQL)
+
 
 
 #### You can see my codewars profile [here](https://www.codewars.com/users/kaniahdunn)
