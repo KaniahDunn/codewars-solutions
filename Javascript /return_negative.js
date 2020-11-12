@@ -1,0 +1,9 @@
+//solution one - return negative
+function makeNegative(num) {
+return -Math.abs(num);
+}
+
+
+
+
+
