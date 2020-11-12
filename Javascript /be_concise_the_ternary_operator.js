@@ -1,4 +1,3 @@
-//Solution 1
 // Be Concise I - The Ternary Operator
 // You are given a function describeAge / describe_age that takes a parameter age (which will always be a positive integer) and does the following:
 
@@ -22,21 +21,6 @@ const describeAge = age =>
 // Function Export
 module.exports = describeAge
 
-
-//Solution 2
-//Convert a String to a Number
-
-// Description
-// We need a function that can transform a string into a number. What ways of achieving this do you know?
-
-// Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
-
-
-var stringToNumber = function(str){
-  // put your code here
-  
-  return parseInt(str, stringToNumber);
-}
 
 
 
