@@ -9,21 +9,14 @@
 // If the total of both even and odd numbers are identical return: "Even and Odd are the same"
 
 function evenOrOdd(str) {
-    // variable to hold count for even 
     evenCount = 0 
-    // variable to hold count for odd 
     oddCount = 0
-    // for loop to loop over str 
-    console.log("this is the str", str )
     for (let i = 0; i < str.length; i++){
-      console.log("this is the index" , str[i])
       newNum = Number(str[i])
       if (newNum % 2 === 0) {
         evenCount += newNum 
-        console.log("this is the even count", evenCount)
       }else{
         oddCount += newNum 
-        console.log("this is the odd count", oddCount)
       }
     }
     if (evenCount > oddCount){
@@ -33,5 +26,4 @@ function evenOrOdd(str) {
     }else {
       return 'Even and Odd are the same'
     }
-  
   }
