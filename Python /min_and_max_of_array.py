@@ -13,8 +13,8 @@
 
 
 
-def m(arr):
+def min(arr):
     return min(arr)
 
-def m(arr):
+def max(arr):
     return max(arr)
